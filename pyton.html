@@ -1,0 +1,712 @@
+# num = 64
+# num1 = int(input("enter the number "))
+# Sq = num1**(0.5)
+# print("the square root of num ", Sq)
+
+# import math
+
+# num = int(input('enter a number :'))
+# sq  = math.sqrt(num)
+# print('the square root of this number is', sq) 
+
+
+# height = float(input("enter a height of the triangle "))
+# base = float(input("enter a base of the triangle "))
+
+# area = (0.5)*height*base
+# print("the area of the triangle is ", area)
+
+# #                   using of third variaable
+# x = 13 
+# y = 12
+
+# temp = x
+# print(x)
+# x = y
+# print("the value of x is", x)
+
+# y = temp
+# print("the value of y", y)
+
+#                     #       without using third vaiable in python
+# x = 12
+# y = 13
+# x, y = y, x
+# print("the value of x", x)
+# print("the value of y", y)
+
+
+#                     #    #    convert kilo meters in mile
+
+# km = float(input("enter your value in kilometers: "))
+
+# miles = (1609)*km
+# print(km, miles)
+
+#                   ##  #     we ues if , elif, else
+                    
+# num = int(input("enter the value :"))
+
+# if num>12:
+#     print("the value  is greater then 12")
+# elif num==67:
+#     print("the vakue is not greaater  thaan 67")
+# else:
+#      print("the value of is not greaater than 12 and 67")
+     
+# #                   even or odd number
+                  
+# num = 50
+
+# if num - 50 + 45 == 0:
+#     print("this is an even number ")
+# else:
+#     print("this is an odd number ")
+
+#                     #  check to leap year
+# year = int(input("enter a year: "))
+
+# if (year % 400 == 0) and (year % 100 == 0):
+#     print (year, "this is a leap year")
+# elif (year % 4 == 0) and (year % 100 != 0):
+#     print("this is a leap ")
+# else: 
+#     print(year,"this not a leaap")
+
+# year = int(input("enter the year: "))
+# if (year % 400 == 0) and (year % 100 == 0):
+#     print(year, "this is a leap")
+# elif(year % 4 == 0) and (year % 100 != 0):
+#     print("this is a leap")
+# else:
+#     print(year, "this year is not a leaap")
+
+
+#                     #       find the largest aamount
+                    
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+
+# if (num1>num2) and (num1>num3):
+#     print(num1, "is grater ")
+# elif (num2>num1) and (num2>num3):
+#     print(num2, "is the largest")
+# else:
+#     print(num3, "is the largest value")
+#                     # prime number 
+# # 1, 3, 7, 11, 17 this is a prime number
+# # 2, 4, 6, 8, 10 this is not a prime number
+
+# num = int(input("enter a number "))
+# num = int(input("enter a number "))
+
+# if (num == 1):
+#     print("this is not a prime number ")
+# if (num>1):
+#     for i in range(2, num):
+#             if num % i == 0:
+#                 print("this is not a prime number ")
+#                 break
+#     else:
+#         "this is a prime number "               
+
+# i = 10
+# for i in range (i == 10):
+#     print("this is good")
+
+# # name = ["ubaid", "zain", "judi", "qamar"]
+# for i in range (1, 10):
+#     print(i)
+
+# i = 1
+# while i < 100:
+#     print(i)
+#     i = i + 1
+
+# x = 0
+# while not (1 <= x <= 100):
+#     x = int(input('enter a number'))
+#     print(x)
+
+#                     # raandom module
+# import random
+
+# num = random.randint(1, 10)
+# print(num)
+
+# #                prime number in an interval
+# #  divisible not  5, 7, 11, 13,17, 19, 23, 29 
+# for num in range(0, 100):
+#    if num>1: # true condition ho gi 
+#      for i in range(2, num):  # num 2,3,4,5,....
+#         if num % i==0: # 2 % 2==0, 3%2==1, 
+#            break
+#      else:
+#           print(num)        
+                                              
+                                              
+# for num in range(0, 1000):
+#     if num>1:
+#       for i in range(2, num):
+#          if num % i==0:
+#              break
+#       else:
+#            print(num)           
+   
+#                     #     celsius aand faahrenheit        
+# celsius = int(input("Enter temperature in celsius "))
+
+# fahrenheit = (celsius * 1.8) + 32
+# print(fahrenheit)
+                                           
+#                     # factorial of the number
+                    
+# num = int(input("enter a nuber "))
+# num = 5
+# ft = 1
+
+# if num<0:
+#     print("factorial do not exist ")
+# if num == 0:
+#     print("faactorial is 0 of ", 1)
+# if num>0:
+#     for i in range (1, num + 1):
+#         ft = ft * i
+# print(ft)       
+
+
+
+#                     #  solution no 2
+# def fact(a):
+#     if  a==0:
+#         return(1)
+#     else:
+#         return((a)*fact(a-1))  # this is a formula 
+# num = int(input("enter a nmber "))
+# result = fact(num) 
+# print(result)   
+
+#                     # table created  with the help of for loop       
+# num = int(input("enter a number :"))
+# for i in range (1, 11):
+#     print(num,  "x", i,  "=", num*i )
+#                     # creaating table with the help of while loop 
+# i = 0             
+# n = int(input("enter a number "))
+# while i<=120:
+#     print(n, "x", i, "=", n*i)
+#     i = i + 1
+                            
+#                                         #            fibonacci sequence  
+# a = 0
+# b = 1
+
+# num = int(input("enter a nuimber of this value "))
+
+# if num == 1:
+#     print(a)
+# else:
+#     print(a)
+#     print(b)
+#     for i in range (1, num+1):
+#         c = a + b
+#         a = b
+#         b = c         
+#         print(c)
+
+
+# a = 0
+# b = 1
+
+# num  = int(input("enter a number "))
+# if num == 1:
+#     print(a)
+# else:
+#     print(a)
+#     print(b)
+#     for i in range(1, num+1):
+#         c = a + b
+#         a = b
+#         b = c
+#         print(c)           
+
+#                     #         check  if the number is armstrong or not
+
+# num = int(input("enter a number ;"))
+# # num = 153
+# sum = 0
+# temp = num 
+
+# while temp>0:
+#     digit = temp%10
+#     cube = digit**3
+#     sum = sum + cube
+#     temp //= 10
+    
+    
+# if sum == num:
+#     print("it is an armstrong number ")
+# else:
+#     ("it is an not armstrong")
+
+# num = int(input("enter a number:"))
+# order = len(str(num))
+
+# sum = 0
+# temp = num
+
+# while temp>0:
+#     digit = temp % 10
+#     cube = digit ** order
+#     sum = sum + cube
+#     temp //=10
+    
+# if sum == num :
+#     print("it is an armstrong number ")
+# else:
+#     print("it is not armstrong number ")
+# num = int(input("eter a number :"))
+
+# sum  = 0
+# temp = num 
+
+# while temp>0:
+#     digit = temp % 0
+#     cube = digit ** 3
+#     sum = sum + cube
+#     temp //= 10
+
+# if sum == num:
+#     print("it is a armstrong number ") 
+# else:
+#     print("it is a armstrong number ")    
+#                     #       armstrong number in an interval
+
+# lower = int(input("enter a lower limit number "))
+# upper = int(input("enter a upper limit number "))
+
+# for num in range(lower, upper + 1):
+#     order = len(str(num))
+#     sum = 0
+#     temp = num
+#     while temp > 0:
+#         digit = temp % 10
+#         sum += digit ** order   
+#         temp //= 10
+#     if num == sum:
+#         print(num)
+                  
+# #                    to find the numbe rof sum number 
+
+# num  = int(input("enter aa number "))
+
+# if num<0:
+#     print("enter a positive number ")
+# else:
+#     sum = 0
+#     while num > 0:
+#         sum += num
+#         num -= 1
+#     print(sum)
+    
+# num  = 4
+
+# if num<0:
+#     print("enter a positive number ")
+# else:
+#     sum = 0
+#     while num > 0:
+#         sum += num
+#         num -= 1
+#     print(sum)
+
+#                     #     using a anonymous function 
+
+# nterms = int(input("enter aa term  "))
+
+# result = list(map(lambda x : 2 ** x, range(nterms+1)))
+
+# print(result)
+
+
+# print("the number divided by 13 :")
+# for i in range(1, 100):
+#     if i % 22 == 0:
+#         print(i)
+
+# # a = 2 ** 8
+# # print(a)
+
+# my_list = [3, 5, 8]
+# my_list *= 3
+# print(my_list)
+
+# # Examples
+
+# x = -5
+# y = +10
+
+
+# abs_x = abs(x)
+# abs_y = abs(y)
+
+# print("Absolute value of x:", abs_x)  # Output: 5
+# print("Absolute value of y:", abs_y)  # Output: 10
+
+
+# # aiter()	Return an asynchronous iterator for an asynchronous iterable.
+
+# import asyncio
+
+# # Define an asynchronous iterable
+# async def async_iterable():
+#     for i in range(3):
+#         yield i
+#         await asyncio.sleep(1)
+
+# # Create an asynchronous iterator using aiter()
+# async def main():
+#     async_iter = async_iterable()
+#     async_iterator = aiter(async_iter)  # This line should be corrected to "async_iterator = aiter(async_iterable())"
+
+#     async for item in async_iterator:
+#         print(item)
+#         await asyncio.sleep(1)
+
+# asyncio.run(main())
+
+# for i  in range(1, 100):
+#     if i % 13 == 0:
+#        print(i)                
+       
+# l = [13, 39, 52, 98, 76, 65 , 63, 78, 90,]
+
+# result = list(filter(lambda x : x % 13 == 0, l))
+# print(result)
+#                     #         convert decimal number to the binary number 
+# # 1, 2, 3, 4, 5, 6, 7, 8, 9, in sab ko decimal number kathy hai
+# # binarry number ka base 2 hota hai, octal number kaa base hota hai 8, and hexadecimal number ka base hota hai 16:
+
+# # perfix of binary hota hai = 0b
+# # perfix of octal hota ha0i =0o 
+# # perfix of hexadecimal  hota hai = 0x
+
+# num = int(input("enter a number haare:"))
+
+# print("convert to the decimal number ", num)
+# print(bin(num), "this is binary number ")
+# print(oct(num), "this is octal number ")
+# print(hex(num), "tis is hexadecimal")
+
+# #                    find ASCII value of character python 
+                   
+
+# char = "9"
+# print("the ASCII value of ", char, ord(char))
+
+#                     #                HCF and GCD of =two number  
+                                   
+# def findHCF(x, y):
+#     if x > y:
+#         smaller = y
+#     else:
+#         smaller = x
+#     for i in range(1, smaller+1):
+#         if((x%i == 0) and (y%i == 0)):
+#             HCF = i
+#     return HCF
+# print("the HCF of the given tow number is ", findHCF(12, 64))
+
+# def findhcf(x, y):
+# #     x = int(input("enter the  first value"))
+# #     y = int(input("enter the second value "))
+#     if x > y:
+#         smaller = y
+#     else:
+#         smaller = x 
+#     for i in range(1, smaller+1):
+#         if ((x%i ==0) and (y%i == 0)):
+#             hcf = i
+#     return hcf
+# print("the hcf of the iev number is ", findhcf(12, 30))
+ 
+# #                    find the factors of the number
+
+# num = int(input("enter a number of the value : "))
+# for i in range(1, num+1):
+#     if num % i == 0:
+#         print(i)                  
+
+#                     # we can creat a simple calculator
+ 
+# num1  = 12
+# num2  = 2
+
+# print("press 1 for addition \n press for multiplaaction \n press 3 for plus\n press 4 for negative")
+
+# choise = int(input("enter your choise from 1-4:"))
+
+# if choise == 1:
+#     print(num1 + num2)
+# elif choise == 2:
+#     print(num1 * num2)
+# elif choise == 3:
+#     print(num1 - num2)
+# elif choise == 4:
+#     print(num1 / num2)
+# else:
+#     print("invalid input")
+
+#                     #       shuffle deck of card
+
+# import random, itertools
+
+# deck = list(itertools.product(range(1, 14), ["ali", "umar", "qasim", "zain"]))
+# print(deck)
+# for i in range(6):
+#     print(deck[i][0], "of",  deck[i][1])
+
+# import random, itertools
+
+# deck = list(itertools.product(range(1, 14), ["judi", "umar", "usmaan", "shery"]))
+
+# for i in range(4):
+#     print(deck[i][0], deck[i][1])
+
+#                     #    program to display calendar creat a month
+
+# import calendar
+
+# year = int(input("enter year: "))
+# month = int(input("enter month: "))
+
+# calendar = calendar.month(year, month)
+# print(calendar)
+
+#                                      # fibonacci sequence using recursion 
+
+# def fibo (n):
+#     if n <= 1:
+#         return n
+#     else:
+#         return fibo(n-1)+fibo(n-2)
+# n = int(input("enter a number "))
+# if n<=0:
+#     print("enter a postive number ")
+# else:
+#     ("faabonacci sequence")
+#     for i in range(n):
+#         print(fibo(i))   
+
+#                     #           the sum of natural number using recursion
+
+# def NNS (n):
+#     if n <= 1:
+#         return n
+#     else:
+#          return n + NNS(n-1)
+
+# n = int(input("enter a positive number: "))
+
+# if n <= 0:
+#      print("enter a posItive number ")
+# else:
+#     print("the sum of natural number: ", NNS(n))
+
+#                     #                    factorial of the number using recursion
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return (n * fact(n-1))
+        
+# n = int(input("enter a number here: "))
+
+# if n <= 0:
+#     print("enter a postive number here: ")
+# else:
+#     ("factorial is given number is :", fact(n))
+
+
+
+                    #             decimal nuber to the binary
+
+# def convertbinary(n):
+#     if n > 1:
+#         convertbinary(n//2)
+#     print (n%2)
+
+# convertbinary(10)
+
+# def convertbinary(n):
+#     if n > 1:
+#          convertbinary(n//2)
+#     print(n%2) 
+# convertbinary(15)                           
+#      #                                 add two matrices
+
+# A = [[1, 4, 5],
+#      [2, 9, 8],
+#      [7, 5, 9]]
+# B = [[4, 9, 2],
+#      [4, 8, 7],
+#      [9, 7, 8]]
+# result = [[0, 0, 0],
+#           [0, 0, 0],
+#           [0, 0, 0]]
+# for i in range (len(A)):
+#     for j in range (len(A[0])):
+#         result[i][j] = A[i][j] + B[i][j]
+# for k in result:
+#     print(k)
+
+# a = [[1, 2, 3],
+#      [2, 1, 4],
+#      [3, 5, 1]]
+# b = [[2, 1, 3],
+#      [4, 5, 6],
+#      [7, 5, 2]]
+# result = [[0, 0, 0],
+#           [0, 0, 0],
+#           [0, 0, 0]]
+# for i in range(len(a)):
+#     for j in range(len(a[0])):
+#         result[i][j] = a[i][j] + b[i][j]
+# for k in result:
+#     print(k)
+# #                            transpose of the matrix
+
+# a = [[1, 2, 3],
+#      [4, 5, 6]]
+# t = [[0, 0],
+#      [0, 0],
+#      [0, 0]]
+# for i in range (len(a)):
+#     for j in range (len(a[0])):
+#        t[j][i] = a[i][j]
+# for k in t:
+#     print(k)
+
+# a = [[1, 2, 3],
+#      [4, 5, 6]]
+# t = [[a[j][i] for j in range (len(a))] for i in range (len(a[0]))]
+# print(t)
+                                              # palindrome
+# a = input("enter a any word here: ")                     
+
+# avg = a[::-1]
+
+# if a == avg:
+#     print ("it is palindrome ")
+# else:
+#     print("it is not palindrome ")
+                              # punctuations from aa string
+
+# punc = ''',.<>/?;:''""{]}}{[_=-__]}'''
+
+# string = input("enter a anytin here")
+
+# empty_str = ""
+
+
+# for i in string:
+#     if i not in punc:
+#         empty_str += i
+# print(empty_str)
+
+#                              multiply two matrices
+
+# a = [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# b = [[1, 2, 1],
+#      [3, 2, 1],
+#      [4, 1, 2]]
+# c = [[0, 0, 0],
+#      [0, 0, 0],
+#      [0, 0, 0]]
+# for i in range(len(a)):
+#     for j in range(len(b[0])):
+#         for k in range(len(b)):
+#             c[i][j] += a[i][k] * b[k][j]
+# for k in c:
+#     print(k)
+
+#                                short word in alphabetic orer (A.B.C)
+# a = "Enter anuthing In the Statement of THE python"
+# # a = input("    :")
+# b = a.split()
+# print(b)
+
+# for i in range(len(b)):
+#     b[i] = b[i].lower()
+# print(b)
+# b.sort()
+# print(b)
+
+# for i in b:
+#     print(i)
+
+# a = "enter AAny thin In this Statement "
+# b = a.split()
+
+# for i in range(len(b)):
+#     b[i] = b[i].lower
+# print(b)
+# b.sort()
+# print(b)
+#                        illustrate different set operations 
+
+# a = {1, 2, 3, 4, 5}
+# b = {8, 5, 6, 7, 9}
+
+# print("the union of: ", a | b)
+
+# print("the intersection is: ", a & b)
+
+# print("the difference is: ", a - b)
+
+# print("the symetric difference is: ", a ^ b)
+
+#                count hte number of each vowel
+
+# a = "once There are a youtuber haarry He  Uplode a Video on youtube Channel"
+# # s = input("enter here")
+# vowels = "aeiou"
+# a = a.casefold()
+# print(a)
+
+# #distionaries key / value
+# # {'a': '', b:"", jun:""}
+# count = {}.fromkeys(vowels, 0)
+# print(count)
+
+# for char in a:
+#     for char in count:
+#         count[char]+=1
+        
+# print(count)
+
+#                    find the size(resolution) of the image
+# import PIL
+# from PIL import Image
+
+# img = PIL.Image.open("")
+
+#                        how to marge two dictionaries 
+
+# dict1 = {"qamar": 75, "zain": 78}
+# dict2 = {"zain": 85, "umar": 87}
+
+# dict3 = dict2.copy()
+# print(dict3.update(dict1))
+# print(dict3)
+
+a = 45
+b = 50
+
+# a, b = b, a
+a = b
+b = a
+print(a, b)
