@@ -1,2 +1,2 @@
 # onlycode
-This is my first git repository : \n work hard
+This is my first git repository : 
